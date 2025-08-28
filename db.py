@@ -3,7 +3,7 @@ import pandas as pd
 
 def get_connection():
     return mysql.connector.connect(
-        host="localhostmysql.railway.internal",
+        host="mysql.railway.internal",
         user="root",
         password="RPBAYUTxInzKlTLpXWRyJOJeiujhcSgx",
         database="railway"
