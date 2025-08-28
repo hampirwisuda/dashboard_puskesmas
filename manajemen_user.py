@@ -3,10 +3,10 @@ import mysql.connector
 
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
+        host="mysql.railway.internal",
         user="root",
-        password="",
-        database="sisihat_db"
+        password="RPBAYUTxInzKlTLpXWRyJOJeiujhcSgx",
+        database="railway"
     )
 
 def manajemen_user_page():
