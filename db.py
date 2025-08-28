@@ -3,10 +3,10 @@ import pandas as pd
 
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
+        host="localhostmysql.railway.internal",
         user="root",
-        password="",
-        database="sisihat_db"
+        password="RPBAYUTxInzKlTLpXWRyJOJeiujhcSgx",
+        database="railway"
     )
 
 def get_users():
